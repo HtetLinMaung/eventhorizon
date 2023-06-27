@@ -1,0 +1,181 @@
+{
+  "openapi": "3.0.3",
+  "info": {
+    "title": "OpenAPI 3.0",
+    "description": "",
+    "version": "1.0.11"
+  },
+  "servers": [
+    {
+      "url": "http://localhost:3000"
+    }
+  ],
+  "tags": [
+    {
+      "name": "routes",
+      "description": "Everything about your Routes"
+    }
+  ],
+  "paths": {
+    "/eventhorizon/cancel-schedule": {
+      "get": {
+        "tags": [
+          "routes"
+        ],
+        "operationId": "geteventhorizon_cancel-schedule"
+      },
+      "post": {
+        "tags": [
+          "routes"
+        ],
+        "operationId": "posteventhorizon_cancel-schedule"
+      },
+      "put": {
+        "tags": [
+          "routes"
+        ],
+        "operationId": "puteventhorizon_cancel-schedule"
+      },
+      "patch": {
+        "tags": [
+          "routes"
+        ],
+        "operationId": "patcheventhorizon_cancel-schedule"
+      },
+      "delete": {
+        "tags": [
+          "routes"
+        ],
+        "operationId": "deleteeventhorizon_cancel-schedule"
+      }
+    },
+    "/eventhorizon/schedule": {
+      "get": {
+        "tags": [
+          "routes"
+        ],
+        "operationId": "geteventhorizon_schedule"
+      },
+      "post": {
+        "tags": [
+          "routes"
+        ],
+        "operationId": "posteventhorizon_schedule"
+      },
+      "put": {
+        "tags": [
+          "routes"
+        ],
+        "operationId": "puteventhorizon_schedule"
+      },
+      "patch": {
+        "tags": [
+          "routes"
+        ],
+        "operationId": "patcheventhorizon_schedule"
+      },
+      "delete": {
+        "tags": [
+          "routes"
+        ],
+        "operationId": "deleteeventhorizon_schedule"
+      }
+    },
+    "/express": {
+      "get": {
+        "tags": [
+          "routes"
+        ],
+        "operationId": "getexpress"
+      },
+      "post": {
+        "tags": [
+          "routes"
+        ],
+        "operationId": "postexpress"
+      },
+      "put": {
+        "tags": [
+          "routes"
+        ],
+        "operationId": "putexpress"
+      },
+      "patch": {
+        "tags": [
+          "routes"
+        ],
+        "operationId": "patchexpress"
+      },
+      "delete": {
+        "tags": [
+          "routes"
+        ],
+        "operationId": "deleteexpress"
+      }
+    },
+    "/function": {
+      "get": {
+        "tags": [
+          "routes"
+        ],
+        "operationId": "getfunction"
+      },
+      "post": {
+        "tags": [
+          "routes"
+        ],
+        "operationId": "postfunction"
+      },
+      "put": {
+        "tags": [
+          "routes"
+        ],
+        "operationId": "putfunction"
+      },
+      "patch": {
+        "tags": [
+          "routes"
+        ],
+        "operationId": "patchfunction"
+      },
+      "delete": {
+        "tags": [
+          "routes"
+        ],
+        "operationId": "deletefunction"
+      }
+    },
+    "/lambda": {
+      "get": {
+        "tags": [
+          "routes"
+        ],
+        "operationId": "getlambda"
+      },
+      "post": {
+        "tags": [
+          "routes"
+        ],
+        "operationId": "postlambda"
+      },
+      "put": {
+        "tags": [
+          "routes"
+        ],
+        "operationId": "putlambda"
+      },
+      "patch": {
+        "tags": [
+          "routes"
+        ],
+        "operationId": "patchlambda"
+      },
+      "delete": {
+        "tags": [
+          "routes"
+        ],
+        "operationId": "deletelambda"
+      }
+    }
+  }
+}

@@ -1,0 +1,13 @@
+version: '3.9'
+
+services:
+  eventhorizon:
+    image: htetlinmaung/eventhorizon
+    restart: always
+    # build: .
+    ports:
+      - "7070:3000"
+    environment:
+      - express_handler_mode=native
+      - MONGODB_CONNECTION=mongodb://hlm:Password@150.95.82.125:27017/eventhorizon?authSource=admin
+    
